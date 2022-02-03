@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="main">
+      <div id="leftContainer" class="content">
+        <div id="logoContainer">
+          <img id="logo" src="images/logo.svg" alt="Fylo logo" />
+        </div>
+        <div id="actions">
+          <button class="iconButton">
+            <img src="images/icon-document.svg" class="actionImage" alt="Icon button" />
+          </button>
+          <button class="iconButton">
+            <img src="images/icon-folder.svg" class="actionImage" alt="Icon button" />
+          </button>
+          <button class="iconButton">
+            <img src="images/icon-upload.svg" class="actionImage" alt="Icon button" />
+          </button>
+        </div>
+      </div>
+      <div id="rightContainer" class="content">
+        <p id="usage">
+          You've used <span id="current">815 GB</span> of your storage
+        </p>
+        <div id="bar">
+          <div id="barFill"></div>
+          <div id="ball"></div>
+        </div>
+        <p class="limit">0 GB</p>
+        <p id="barMax" class="limit">1000 GB</p>
+        <div id="remaining">
+          <p id="remainingStorage">185</p>
+          <p>GB LEFT</p>
+        </div>
+      </div>
+    </div>
+    <div id="background"></div>
+  </div>
+
+</body>
+
+</html>
